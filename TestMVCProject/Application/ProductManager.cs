@@ -1,6 +1,6 @@
 ﻿using MinimalProject.Catalog.Domain.Products;
 using MinimalProject.Catalog.Infrastructure.Repository;
-using TestMVCProject.Application.Dto;
+
 using TestMVCProject.Application.Service;
 using TestMVCProject.Domain.Product;
 

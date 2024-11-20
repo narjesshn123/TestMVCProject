@@ -1,0 +1,11 @@
+﻿@using TestMVCProject.Domain.Product
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@model Product
+
+<h1>@Model.Name</h1>
+<p>@Model.Description</p>
+<p>Price: $@Model.Price</p>
+<a href="/Product/Index">Back to List</a>

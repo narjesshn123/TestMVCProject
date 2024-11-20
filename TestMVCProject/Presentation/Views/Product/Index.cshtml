@@ -1,0 +1,17 @@
+﻿@using TestMVCProject.Domain.Product
+@model List<TestMVCProject.Domain.Product.Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<h1>Product List</h1>
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>
+            <a href="/Product/Detail/@product.Id">@product.Name</a> - $@product.Price
+        </li>
+    }
+</ul>
